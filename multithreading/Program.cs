@@ -18,15 +18,15 @@ namespace multithreading
             Console.WriteLine("Thread2 is running");
         }
 
-        static void Main(string[] args)
-        {
-            Thread t1=new Thread(method1);
-            Thread t2=new Thread(method2);
-            t1.Start();
-            t2.Start();
-            t1.Join();
-            t2.Join();
-            Console.WriteLine("Both threads are finished");
-        }
+        //static void Main(string[] args)
+        //{
+        //    Thread t1=new Thread(method1);
+        //    Thread t2=new Thread(method2);
+        //    t1.Start();
+        //    t2.Start();
+        //    t1.Join();
+        //    t2.Join();
+        //    Console.WriteLine("Both threads are finished");
+        //}
     }
 }
